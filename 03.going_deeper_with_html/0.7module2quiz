@@ -1,0 +1,24 @@
+<!-- the correct way to comment-->
+
+<html>
+	<head>
+		<title>Online shop</title>
+	</head>
+	
+	<body>
+		<p>Articles</p>
+		<Button>Open the list</button>
+	<body>
+</html>
+
+title is nested inside the head tag
+
+<a href ="https://www.findmovies.com">Movies</a>
+
+hyperlink : <a>
+orderded list: <ol>
+unordered list:<ul>
+underline format:<u>
+Line break: <br>
+
+semantic formatting tafs are <em>, <strong>

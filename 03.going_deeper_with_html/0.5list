@@ -1,0 +1,29 @@
+<li>Item 1 </li>
+<li>Item 2 </li>
+<li>Item 3 </li>
+<li>Item 4 </li>
+<li>Item 5 </li>
+
+order list 
+<ol>
+	<li> cofferr</li>
+	<li> tea</li>
+	<li> milk</li>
+</ol>
+
+unordered list
+<ul>
+	<li> cofferr</li>
+	<li> tea</li>
+	<li> milk</li>
+</ul>
+<p>Some text</p><p>More text</p>
+		<p>additional text</p>
+		
+<ul><li>A</li><li>B</li></ul>
+
+li is list
+ol ordered and ul unordered list 
+can nest list inside eachother
+
+li is automatically unordered one

@@ -1,0 +1,61 @@
+<header>
+</header>
+<main>
+	<article>	<aside>
+	<Section>
+</main>
+<footer></footer
+
+<article> represents as independent, selfcontained piece of content.
+and is  a semantic tag(they give information about what they contains)
+
+<article> 
+	<h1>Top 10 travel Destinations</h1>
+	<p> Travelling is a way of living...</p>
+</article> 
+
+<Section>helps to break down the content into parts.
+it is a semantic tag
+
+usually includes a heading..
+
+it is used to separate each chapter, news item, etc
+<section>
+	<h2>About Us</h2>
+	<p>We are a small company...</p>
+</section>
+
+<aside> is used for secondary, additional or somehow related content.
+
+<aside>
+	<h3>Related Topics</h3>
+	<p>Did you know</p>
+</aside>
+
+<header> BLOG </header>
+<main>
+	<article>
+	Blog post 1
+	<Section>
+	Introduction
+	</section>
+	
+	<Section>
+	Core content
+	</section>
+	</article>
+</main>
+<footer> Blog 2023</footer>
+
+Blog post content: <article>
+Post auther's biography : <section>
+Related posts: <aside>
+
+semantic tags give additional information about:
+search readers and search engines
+
+<article> represents a self-contained ,independent piece of content
+<Section> is used tp divide content into parts
+<aside> is used for secondary, additional or somehow related content
+
+

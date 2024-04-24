@@ -1,0 +1,38 @@
+Comments
+<!-- Paragraph element below-->
+<p> This product is awesome!</p>
+
+<!-- Heading Below-->
+<h3>Product features</h3>
+
+<!--menu selection-->
+<h2>Menu</h2>
+<!--Menu Options-->
+<p>Sushi</p>
+<p>Lasagna</p>
+<p>Paella</p>
+
+comments are for human who is reading the code
+
+comments are used to disable the code
+
+<br> used to break the line
+
+<p>here is the code<br>
+which converts into two line</p>
+
+<p>hello!!!<br>Enter your Name</p>
+
+it displays two line of code
+
+<h1>TO-do list</h1>
+<p>Book train tickets</p>
+<p>pack for the trip</p>
+<button>add task</button>
+<button>Delete task</button>
+
+heading and paragragphs tags breaks the line but button tag doesnot
+
+
+here we learnd about line break<br> and <!--comment-->
+

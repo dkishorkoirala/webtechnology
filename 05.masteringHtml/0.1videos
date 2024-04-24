@@ -1,0 +1,17 @@
+<video>
+</video>
+
+<video>
+<source src ="file.mp4" type ="video/mp4">
+<source src = "video.mp4" type="video/ogg">
+video not supported
+</video>
+
+control attribute is used to display play/pause, volumr and other video controls 
+
+embeds video element: <video>
+file and format options: <source>
+file location : src attribute
+format information : type attribute
+
+

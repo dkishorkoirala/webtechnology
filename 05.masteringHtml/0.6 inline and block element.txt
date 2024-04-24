@@ -1,0 +1,36 @@
+The border property’s great for helping us see the difference between these 2 types of HTML element.
+
+ 
+
+Do you remember how to use the border property?
+<button style = "border: solid">Click me</button>
+
+block = <p>, <ul>,<li>,<h1>
+inline=<button>,<b>,<u>,<i>,<label>,<input> 
+
+inline element are nested inside block elements
+
+ex. <p>
+	<a href: "link">link</a>
+    </p> 	 
+
+block level elements always starts from new line so <br> tag is not necessary for block level element
+
+Form elements like <input> and <label> are inline elements so <br> is required
+
+<p>first<br>
+second<br>
+third</p>
+-> this is three line paragraph element
+
+
+<button>first</button><br>
+<button>second</button><br>
+<button>third</button>
+-> this is three line button
+⭐ there are two types of HTML element: inline and block
+
+⭐ Block-level elements always start on (and end with) a new line
+
+⭐ Inline elements don’t start on a new line
+

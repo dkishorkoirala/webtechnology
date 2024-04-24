@@ -1,0 +1,79 @@
+interaction of the website and collection of information can be performed using forms
+
+FOrms are made of input elements like text fields, checkboxes, and submit buttons. these input elements are nested inside the <form> container tag.
+
+<form>
+	<!--input elements go here-->
+</form>
+
+the most common form element is <input>.  there are many forms of <input> element, depending on the type attribute
+
+<form>
+	<input type ="text">
+	<input type ="radio">
+	<input type = "checkbox">
+</form>
+<br> is essential in forms else it present in same line 
+<form>
+	<input type ="text"><br>
+	<input type ="radio"><br>
+	<input type = "checkbox"><br>
+</form>
+
+<form>
+	<label>email:</label>
+	<input type="text">
+</form>
+
+<form>
+	<label>Enter text</label>
+	<input type ="text">
+	<label> Select the radio button</label>
+	
+	<input type ="radio">
+	<label> check the box</label>
+	<input type="checkbox">
+</form>
+
+<p>Notification preferences:</p>
+<form>
+	<input type="checkbox" id="box1">
+	<label for ="box1">
+	Email</label>
+	<input type ="checkbox" id="box2">
+	<label for ="box2">
+	push</label>
+	<input type="submit">
+</form>
+
+the id attribute is used to identify a unique input element. the for attribute in a label targets (and matches!) an input's id:
+
+<input type="radio" id ="r1">
+
+<label for="r1">text</label>
+
+to connect label and inputs their id and for attribut values must match up exactly.
+
+<label> uses for 
+<input uses id
+
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <p>Choose your area of interest:</p>
+    <form>
+      <input type="checkbox" id="c1">
+      <label for="c1">Art</label><br>
+      <input type="checkbox" id="c2">
+      <label for="c2">Sports</label><br>
+      <input type="checkbox" id="c3">
+      <label for="c3">Tech</label>
+    </form>        
+  </body>
+</html>
+
+
+
+input and label are used to hit single statement where input defines the type with id and label uses for and plays crucial role for input validadion 

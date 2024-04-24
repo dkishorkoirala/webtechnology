@@ -1,0 +1,50 @@
+the alt attribute is used with : images
+
+select the element that usually contains navigation links and brand logo: <header>
+
+which section will the link jump to?
+<a href ="#1"> Discover lifeform</a>
+
+<h2 id ="0">animals</h2>
+<h2 id ="1">plants</h2>
+<h2 >Fungi</h2>
+
+->plants
+
+what's the correct file extension for saving HTML Documents?
+-> .html
+
+what type of form element is used to let the user select one or more option from a list of choices?
+<input type="checkbox">
+
+match the element with the tag:
+<a>:hyperlink
+<nav>:set of navigation links
+<input>:form element
+<td>:table cell
+
+what will this code display?
+<p style ="color:red; text-align :right; font-size:small"> some text </p>
+-> text in red color, aligned to the right, in small font size
+
+what will the code display?
+<table>
+    <tr>
+        <td>Key 1</td>
+        <td>105</td>
+     </tr>
+     <tr>
+        <td>Key 2</td>
+        <td>205</td>
+     </tr> 
+</table>
+-> table with 2 rows and 2 colums
+
+<form>
+	<label for= "name" > Name : </label>
+	<input type ="text" id ="name">
+	<input type ="submit">
+</form>
+
+
+

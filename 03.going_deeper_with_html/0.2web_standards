@@ -1,0 +1,44 @@
+<body>
+body is the place to write code
+<h1> heading</h1>
+<p>compatibility</p>
+</body>
+
+content are in the body tag
+
+<head>
+heading 
+</heading>
+<body> content in web</body>
+
+title are in head
+<head>
+<title>gardaining</title>
+</head>
+
+<body>
+<p>The content of the page</p>
+</body>
+
+the two coding best practices:
+indented code
+Code organized into different lines
+
+specific and technical information like title, description, author and keywords are nested inside 
+the head container
+
+we should not use more h1 tag in head tag
+
+<html>
+
+<head>
+	<title> Hotel name</title>
+</head>
+
+<body>
+	<p>This is the best hotel in town</p>
+	<button>Book a room</button>
+</body>
+</html>
+
+

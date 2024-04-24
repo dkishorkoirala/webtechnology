@@ -1,0 +1,78 @@
+Tables help you display data in a way that’s easy to scan, compare, and analyze.
+
+ 
+
+In this lesson, you’ll learn to add tables to your web page.
+
+<table>
+<!--rows and column-->
+</table>
+
+table is made up of rows and colums
+<table>
+<tr>
+<!--row data-->
+</tr>
+</table>
+
+<table>
+	<tr>
+	<td>cell1</td>
+	<td>cell2</td>
+	</tr>
+</table>
+<table>
+  <tr> 
+    <td>A</td>
+    <td>B</td>
+  </tr>
+  <tr> 
+    <td>C</td>
+    <td>D</td>
+  </tr>
+</table>
+
+<td> elements within the same row are displayed on the same line, one after the other.
+
+<td>A</td>
+<td>B</td>
+<td>C</td>
+
+td are inline elements
+
+Tables usually include headers. A header is a special row at the top of the table used to label each column. 
+
+ 
+
+You can create header cells with <th>
+<table>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>Amy</td><td>38</td>
+</tr>
+</table>
+
+th-> table head cell
+tr->table row cell
+th and td are nested inside tr and 
+<table>
+	<tr>	
+		<th>h1</th><th>h2</th>
+	</tr>
+	
+	<tr>
+		<td>a</td><td>b<td>
+	</tr>
+</table>
+
+⭐ You can add tables to web pages with the <table> container tag
+
+⭐ The <tr> container tag is used to add rows
+
+⭐ The <td> container tag is used to add data
+
+⭐ The <th> container tag is used to add headers
+

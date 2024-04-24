@@ -1,0 +1,17 @@
+web page with image gets more views , rank in search results, and get shared more on social media
+
+<img>
+
+<img scr = "image_location">
+
+<img src = "https://www.image.jpg">
+
+src -> where the image tag points to the server where the image can be found.
+
+<h1>Headings Text</h1>
+<p>Paragraph Text</p>
+<img src = "image_url">
+<button>CLICK ME</button>
+
+
+

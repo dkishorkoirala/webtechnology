@@ -1,0 +1,27 @@
+dropdown list
+
+<select> container tag is used to create dropdown menus
+<!--option>
+</select>
+
+<form>
+<Select>
+	<option>opt1</option>
+	<option>opt2</option>
+	<option>opt3</option>
+</select>
+</form>
+submittion a form sends information to a database
+THe name attribute is needed to submit the form data.
+
+<form>
+	<select name = "color">
+	<option>Red</option>
+	<option>Blue</option>
+	</select>
+</form>
+
+select = id attribute 
+label = for attribute
+
+input tag type are "text","checkbox","radio","submit"

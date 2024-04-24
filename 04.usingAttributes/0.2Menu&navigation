@@ -1,0 +1,51 @@
+the way visitors navigate a website depens on its design. website comes in 2 shapes:
+
+multi-page websites
+single-page websites.
+
+what they're looking for with navigation links,
+
+the way visitors navigate your website has a big imact on user experience, search engine ranking and therefore even sales.
+
+multi-page websites are made of more than one page. 
+navigating between pages requires the web browser to load different HTML files.
+
+the <nav> container tag defines a set of links that allows the user to navigate between page of a website.
+
+<nav>
+	<a href="index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="contact.html">Contact</a>
+</nav>
+
+links to the different pages are added with the anchor tag<a> and nested inside the <nav> container tag.
+
+<nav>
+	<a href ="index.html>Home</a>
+	<a href = "contact.html>Contact</a>
+</nav>
+
+to jump to a specific part of a single-page website, first you need to mark the section with the id(ID) attribute
+
+ex. <h2 id="section-1">Section 1 </h2>
+
+id attribute value must be -unique and within quotes
+
+once the element you want to jump to has been marked with an id, you can target it with an anchor tag<a>
+
+<a href ="#s1">GO to s1</a>
+<h2 id="s1">Section 1</h2>
+
+the hash character # IS NEEDED t0 tell the web browser that we are targeting a section of the same page.
+
+<nav>
+	<a href="#s1">jump to s1</a>
+	<a href="#s2">jumt to s2</a>
+	<a href="#s3">jump to s3</a>
+</nav>
+
+first identify the type of web we are making inorder to build that and both has its uniques pros and cons
+
+<a> tag is used to navigate and used inside <nav> tag and id is used to identify them
+
+

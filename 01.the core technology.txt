@@ -1,0 +1,14 @@
+html tags ex:
+
+button= <button>
+Image = <img>
+paragaraph = <p>
+table = <table>
+
+major thing to know:
+structure = html
+style = css
+interactivity = javascript
+
+
+example 
