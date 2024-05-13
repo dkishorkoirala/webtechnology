@@ -1,0 +1,153 @@
+Adding CSS code to every HTML element takes time and makes your HTML structure unorganized.
+
+ 
+
+In this lesson, you'll learn an alternative way to style your pages that makes your CSS code more efficient.
+
+lets warm up
+You can add css code inside HTML elements.
+Code a green paragraph
+
+<p style="color:green;">Paragraph text</p>
+
+when css code is added to html elements, this is called inline css.
+code a fray heading using inline css
+
+<h1 style="color:gray;">Paragraph text</h1>
+
+You'll learn to style your web page in different ways.
+The styling technique that adds css code inside HTML elements is called : inline css
+
+inline css is easy to add to your code but presents some disadvantages. for example, to apply the same style to more than one HTML element..
+css code needs to be repeated
+
+an alternative styling technique is internal css. internal css is used to style the entire page.
+The <style> container tag is added within the html document to group all the css code for the page.
+
+<style>
+	p{
+	  color: orchid;
+	}
+</style>
+
+<body>
+	<p>Explore the city.</p>
+	<p>Discover the gems.</p>
+	<p>take a free tour.</p>
+</body>
+
+complete the code to style all the h2 elements in the page using internal css
+<style>
+	h2{
+	color:yellow;
+	}
+</style>
+
+the way css code is added depens on the styling technique you are using.
+Inline css code is added to 
+individual html elements
+
+
+The styling technique that groups all the css code inside <style> tag is called ...
+Internal css
+
+
+<style>
+	h3{
+	color:red;
+	font-size:small;
+	}
+</style>
+
+the style defined in the internal css code above will be applied to
+-> all level 3 headings in the page
+
+selector <- p {
+		color:green;
+		text-align: left;
+		}
+
+the selector in the css code matches the html tags you want to target.
+COmplete the internal css code to style the buttons in the page.
+
+button{
+	color:green;
+	}
+
+
+style the h1 headings in the page using internal css
+
+<style>
+	h1{
+	color: orange;
+	}
+</style>
+
+
+selectors are used with...
+internal css
+
+
+separate multiple selectors with a comma to apply the same style to
+different elements. this makes your css code simpler.
+
+create a rule that applies the same style to h1 and p elements
+
+<style>
+	h1,p{
+		color:black;
+		background-color: yellow;
+	}
+</style>
+
+its best practice to include all the internal css code in the <head> of the page.
+
+
+<head>
+	<style>
+	h1{
+		color: orchid;
+		background-color: lime;
+	}
+	p{
+		color: orchid;
+	}
+	button{
+		font-size: large;
+		color: lightyellow;
+		background-color: orchid;
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Explore the city.</h1>
+	<p>Discovere gems.</p>
+	<button>Take a free tour</button>
+</body>
+
+<p>Explore the city.</p>
+<p>Discover the gems.</p>
+
+complete the code to target all paragraphs in the page.
+
+<style>
+	p{
+		color: maroon;
+	}
+</style>
+
+complete the code to apply the same style to all level 1 headings and 
+paragraphs in the page
+
+<style>
+	h1,p{
+	text-align: center;
+	}
+</style>
+
+
+lesson takeaway:
+i. inline css is used to style individual html elements
+ii. internal css groups all the styling for a page inside the <style> tag
+iii. selectors are used to target HTML elements.
