@@ -1,0 +1,115 @@
+CSS controls all the design-related aspects of our web page. this includes
+fonts, sizes, colors, position, sapcing, layout, animation, and much more.
+
+in this lesson, we'll learn to create css to style our page.
+
+complete the internal css code to style the paragraphs in the page.
+<Style>
+	p{
+	text-align: center;
+	}
+</style>
+
+what's the selector for a level 1 heading?
+->h1
+
+CSS rule{
+	rule = selector + declaration ex. p{color:red;}
+
+CSS code creates styling rules. the simplest styling rule consists of a selector, 
+plus a declaration in curly braces{}.
+
+Code a rule for the buttons in the page
+button{
+font-size: large;
+}
+
+the rule above will apply to...
+all buttons in the page
+
+p{
+	color: red;
+	text-align: center;
+}
+We can add as many declaration to our rule as we need.
+each declaration should end with a ....
+semicolon;
+
+select the declaration
+color: green
+
+h1{
+	text-align: center;
+}
+A declaration consists of two parts: a property and a value.
+Use the image to identify the elements of the declaration
+property: text-align
+value: center
+
+The property and the value inside a declaration always come in pairs.
+Complete the code so the property:Value pair is in the correct order
+
+h3{
+color: blue;
+}
+
+complete the declarations
+p{
+font-family: serif;
+color:purple;
+}
+
+A declaration is made of a property: value pair.
+The value is...
+a possible setting for a property
+
+A property: value pair in a declaration is separated with a colon :
+
+complete the code
+h2{
+text-align: center;
+}
+
+p{
+	color: yellow;
+	background-color: black;
+	text-align: center;
+}
+
+select the number of declarations in the rule-> 3
+
+p{
+	color: red;
+}
+
+h1{
+	text-align: center;
+}
+
+Our css code can contain as many styling rule as we need.
+
+the code above contains ...
+->2 rules
+
+p{
+color: red;
+}
+h1{
+text-align: center;
+}
+
+identify all selectors in the css code
+->p,h1
+
+complete the css rule
+p{
+	font-family: serif;
+	color: purple;
+}
+
+lesson takeaways:
+
+i. CSS code is made of styling rules
+ii. A rule is made of a selector and a set of declarations
+iii. A declaration consists of a property: value pair
+

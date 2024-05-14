@@ -1,0 +1,30 @@
+the purpose of css is...
+->to style the elements on a web page
+
+
+the Css property that controls the color of text is...
+-> color
+
+Complete the code to make the text large
+<p style="font-size:large">Text</p>
+
+
+Css properties and value are separated with
+-> colons
+
+Complete the CSS code to target all paragraphs in the page and make them yellow
+
+<style>
+p{
+	color: yellow;
+}
+</style>
+
+Fill the gaps to align the text to the center
+<h1 style="text-align:center;">THis text is centered</h1>
+
+complete the code to set the text color of level 2 heading to red
+
+h2{
+	color: red;
+}
