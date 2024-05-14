@@ -1,22 +1,26 @@
+=============================================================================================================
 attributes are used to have control over html elements
 
 <img src = "https://www.img.png">
 <a href = "https://z.com">Z</a>
 
+=============================================================================================================
 these src and href are attributes
 
 these attributes always comes with opening tag
 
 <img src = "Image_boy.jpg" alt ="Boy in a hat">
 
+=============================================================================================================
 here name = "value"
 and attributes name in img tag is src where attribute value is "Image_boy.jpg"
 
 src, alt, href are attributes
 
+=============================================================================================================
 horizontal are width attributes and value can be somthing like "300"
 
 <img src = "monkey.png" width = "400" height = "300">
 
 changing aspect ration of an image causes distortion, which can look bad
-
+=============================================================================================================

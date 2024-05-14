@@ -1,17 +1,23 @@
 html tells how to display code
 <button>like</button>
+
+==============================================================================================================
 opening and closing tags
 
 <button> comment </button>
 
+=============================================================================================================
 writing paragraph with <p>text</p>
 
 <p>text</p>
 
+=============================================================================================================
 a paragraph and a button
 <p>this is awsome product</p>
 <button>buy</button>
 
+
+=============================================================================================================
 <p>click to know more</p>
 <button>Click Me</button>
 <p>now you know more</p>

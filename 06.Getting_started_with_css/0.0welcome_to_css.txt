@@ -1,82 +1,102 @@
+=============================================================================================================
 Css is used to style the element in a webpage.
 
 CSS is a styling language that works together with HTML to give a page its look and layout.
 
 CSS builds on top of HTML. The style attribute allows you to use CSS properties to customize the visual presentation of HTML elements.
 
+=============================================================================================================
 Change the color of the paragraph text with the style attribute.
 <p style = "color:green">Text</p>
 
+=============================================================================================================
 MAIN MENU
 
 THe color property is used to control the color of the text.
 
+=============================================================================================================
 Code a blue heading.
 <h1 style = "color:blue">Main Menu</h1>
 
+=============================================================================================================
 what will this code displays?
 <h2 style = "color:purle"> Hair studio</h2>
 
+=============================================================================================================
 CSS properties control the style of HTML elements. Examples of CSS Properties are color,border, font-size, and Margin.
 
+=============================================================================================================
 MAke the text in the paragraph large
 
 <p style="font-size:large">Text</p>
 
+=============================================================================================================
 CSS properties require values. values are possible settings for a property.
 
 Add the correct value to the color property to make the text red
 
 <p style = "color:red">Text</p>
 
+=============================================================================================================
 complete the code with the possible value for the font-size property
 <h2 style = "font-size:small">Title</h2>
 
+=============================================================================================================
 once upon a time...
 CSS property and values are separated with a colon: 
 complete the code
 <p style ="color:navy">Once upon a time...</p>
 
+=============================================================================================================
 The css code for an HTML element must be enclosed in double or single quites, following the style attribute.
 code a blue heading
 <h1 style = "color:blue">Agenda</h1>
 
+=============================================================================================================
 whats wrong with this code?
 <p style = color:blue> Text </p>
 -> missing quotes
 
+=============================================================================================================
 to apply multiple properties to an element, separate css properties with a semicolon;
 
 code the opening tag for a yellow heading on a blue background
 
 <h1 style = "color : yellow ; backgroud-color:blue">
 
+=============================================================================================================
 Game Over
 
 code the heading in the image (red text and black background) for an online game
 <h2 style = "color:red;background:black;">Game Over</h2>
 
+=============================================================================================================
 GAME OVER 
 complete the code to center the heading
 <h2 style = "color:red;backgroud-color:black;text-align:center">GAME OVER</h2>
 
+=============================================================================================================
 OK
 code a button with a green background
 <button style="background-color:green">OK</button>
 
+=============================================================================================================
 CSS stands for cascading style sheets and is one of the 3 core web technologies.
 Cascading refers to the set of rules you'll learn in the following lessos.
 match each type of code with its purpose
 
+=============================================================================================================
 structure: html
 style: css
 Interactivity: JavaScript
 
+=============================================================================================================
 ITEMS
 code a centered heading with a gree background
 
 <h1 style = "text-align: center; background-color: green">Items</h1>
 
+=============================================================================================================
 
 lessons takeaways:
 ⭐ CSS is used to style web pages
@@ -85,5 +105,4 @@ lessons takeaways:
 
 ⭐ The style attribute adds CSS to HTML tags
 
-
-
+=============================================================================================================

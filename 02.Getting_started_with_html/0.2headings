@@ -5,6 +5,7 @@
 <h5>smaller than h3</h5>
 <h6>smallest of all</h6>
 
+=============================================================================================================
 	<h1>the best restaurant</h1>
         <p>best food in the city</p>
         <h2>food menu</h2>
@@ -12,17 +13,20 @@
         <p>small bites</p>
         <button>order</button>
 
+=============================================================================================================
         <h1>Mexico guide</h1>
         <p>Introduction</p>
         <h2>Food in Mexico</h2>
         <p>Tacos.....</p>
         <button>Order Now</button>
 
-        <h1>Movie Catalouge</h1>
+
+=============================================================================================================        <h1>Movie Catalouge</h1>
         one heading is only used
 
         <h2>Genre</h2>
 
+=============================================================================================================
         heading is a container tag
         while <img> is the empty tag
 

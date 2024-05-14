@@ -1,3 +1,5 @@
+
+=============================================================================================================
 <form>
 	<label for ="t1">email</label>
 	<input type ="text" id="t1">
@@ -5,12 +7,14 @@
 	<input type="text" id="t2">
 </form>
 
+=============================================================================================================
 <form>
 	<label for ="em">Email: </label>
 	<input type ="text" id="em"><br>
 	<input type ="submit">
 </form>
 
+=============================================================================================================
 <form>
 	<input type="text"
 	name ="email">
@@ -18,6 +22,7 @@
 	<input type = "submit">
 </form>
 
+=============================================================================================================
 <form>
   <input type="text" name="email"> 
   <input type="text" name="city">
@@ -30,6 +35,7 @@ input has attributes like type, id , name
 amd label has attributes for which is according to id been placed
 
 
+=============================================================================================================
 key points 
 submit type of input allows the user to send form data
 
@@ -37,3 +43,5 @@ the name attribute is used to tell the database where to store the data
 
 the vlaue attribite is used to tell the database what to store
  
+
+=============================================================================================================

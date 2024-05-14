@@ -1,3 +1,5 @@
+
+=============================================================================================================
 interaction of the website and collection of information can be performed using forms
 
 FOrms are made of input elements like text fields, checkboxes, and submit buttons. these input elements are nested inside the <form> container tag.
@@ -6,6 +8,7 @@ FOrms are made of input elements like text fields, checkboxes, and submit button
 	<!--input elements go here-->
 </form>
 
+=============================================================================================================
 the most common form element is <input>.  there are many forms of <input> element, depending on the type attribute
 
 <form>
@@ -35,6 +38,7 @@ the most common form element is <input>.  there are many forms of <input> elemen
 	<input type="checkbox">
 </form>
 
+=============================================================================================================
 <p>Notification preferences:</p>
 <form>
 	<input type="checkbox" id="box1">
@@ -46,12 +50,14 @@ the most common form element is <input>.  there are many forms of <input> elemen
 	<input type="submit">
 </form>
 
+=============================================================================================================
 the id attribute is used to identify a unique input element. the for attribute in a label targets (and matches!) an input's id:
 
 <input type="radio" id ="r1">
 
 <label for="r1">text</label>
 
+=============================================================================================================
 to connect label and inputs their id and for attribut values must match up exactly.
 
 <label> uses for 
@@ -77,3 +83,4 @@ to connect label and inputs their id and for attribut values must match up exact
 
 
 input and label are used to hit single statement where input defines the type with id and label uses for and plays crucial role for input validadion 
+=============================================================================================================

@@ -1,15 +1,20 @@
+=============================================================================================================
 Interactive websites are more engaging and interesting. This can create lasting effects in user's minds.
 
  
 
+=============================================================================================================
 In this lesson, you’ll start learning about JavaScript to make your web pages more interactive for an improved brand awareness and reach.
 The onclick attribute is used to trigger an action when an HTML element is clicked or tapped. 
 
 <button onclick = action>Click</button>
 
+=============================================================================================================
 One of the many actions you can trigger is the display of an alert message.
 
 <button onclick = "alert('message')">Click</button>
+
+=============================================================================================================
 
 You can make other HTML elements interactive.
 
@@ -21,26 +26,31 @@ You can make other HTML elements interactive.
 <button onclick="alert('Welcome')">
 Submit</button>
 
+=============================================================================================================
 onclick attribute is used not only with button elements
 
 onclick attribute triggers an action when the html element is clicked or tapped
 
+=============================================================================================================
 a function is a piece of code that can be "called" and reused in a program as many times as we need 
 alert() is an example of the function that displays an alert message
 
+=============================================================================================================
 The alert() function displays an alert box with a message and an ok button.
 The message needs to be enclosed in quotation marks.
 
+=============================================================================================================
 You have only scratched the surface of what is possible with JavaScript.
 
- 
-
+=============================================================================================================
 You’ll dive deeper into JavaScript later in this course
 
+=============================================================================================================
 controls the structure of a web page :HTML
 controls the presentaiton of a web page : css
 controls the behaviour of a web page : javascript
 
+=============================================================================================================
 internet- 1970
 web-1990
 internet 1.0 1995
@@ -49,17 +59,20 @@ internet 3.0 2018
 
 The web has evolved so much since it was invented at CERN.
 
+=============================================================================================================
  
 
 The first iteration of the web was read-only, with no interaction or design elements.
 
  
 
+=============================================================================================================
 The second iteration, also known as read-write web, made the web social with applications like YouTube, Facebook and Twitter and enabled the user to become a content creator.
 
 the web is the subset of email video conferencing.
 While the internet and the web are not exactly the same thing, the two terms are often used interchangeably. The web is the largest application on the internet.
 
+=============================================================================================================
 HTML was the perfect choice! Now you know it, there’s so much you can build! And now you’ll pick up the other programming languages much quicker too.
 
 ⭐ JavaScript makes your web pages interactive
@@ -68,4 +81,4 @@ HTML was the perfect choice! Now you know it, there’s so much you can build! A
 
 ⭐ The alert() function generates a message with an OK button
 
-
+=============================================================================================================

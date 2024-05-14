@@ -1,3 +1,5 @@
+
+=============================================================================================================
 dropdown list
 
 <select> container tag is used to create dropdown menus
@@ -12,6 +14,7 @@ dropdown list
 </select>
 </form>
 submittion a form sends information to a database
+=============================================================================================================
 THe name attribute is needed to submit the form data.
 
 <form>
@@ -21,7 +24,10 @@ THe name attribute is needed to submit the form data.
 	</select>
 </form>
 
+=============================================================================================================
 select = id attribute 
 label = for attribute
 
 input tag type are "text","checkbox","radio","submit"
+
+=============================================================================================================

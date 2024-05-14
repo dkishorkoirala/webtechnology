@@ -1,3 +1,5 @@
+
+=============================================================================================================
 Tables help you display data in a way that’s easy to scan, compare, and analyze.
 
  
@@ -8,6 +10,7 @@ In this lesson, you’ll learn to add tables to your web page.
 <!--rows and column-->
 </table>
 
+=============================================================================================================
 table is made up of rows and colums
 <table>
 <tr>
@@ -15,6 +18,7 @@ table is made up of rows and colums
 </tr>
 </table>
 
+=============================================================================================================
 <table>
 	<tr>
 	<td>cell1</td>
@@ -32,14 +36,17 @@ table is made up of rows and colums
   </tr>
 </table>
 
+=============================================================================================================
 <td> elements within the same row are displayed on the same line, one after the other.
 
 <td>A</td>
 <td>B</td>
 <td>C</td>
 
+=============================================================================================================
 td are inline elements
 
+=============================================================================================================
 Tables usually include headers. A header is a special row at the top of the table used to label each column. 
 
  
@@ -55,8 +62,11 @@ You can create header cells with <th>
 </tr>
 </table>
 
+=============================================================================================================
 th-> table head cell
 tr->table row cell
+
+=============================================================================================================
 th and td are nested inside tr and 
 <table>
 	<tr>	
@@ -68,6 +78,7 @@ th and td are nested inside tr and
 	</tr>
 </table>
 
+=============================================================================================================
 ⭐ You can add tables to web pages with the <table> container tag
 
 ⭐ The <tr> container tag is used to add rows
@@ -75,4 +86,4 @@ th and td are nested inside tr and
 ⭐ The <td> container tag is used to add data
 
 ⭐ The <th> container tag is used to add headers
-
+=============================================================================================================

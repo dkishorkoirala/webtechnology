@@ -1,3 +1,5 @@
+
+=============================================================================================================
 <header>
 </header>
 <main>
@@ -6,6 +8,7 @@
 </main>
 <footer></footer
 
+=============================================================================================================
 <article> represents as independent, selfcontained piece of content.
 and is  a semantic tag(they give information about what they contains)
 
@@ -14,9 +17,11 @@ and is  a semantic tag(they give information about what they contains)
 	<p> Travelling is a way of living...</p>
 </article> 
 
+=============================================================================================================
 <Section>helps to break down the content into parts.
 it is a semantic tag
 
+=============================================================================================================
 usually includes a heading..
 
 it is used to separate each chapter, news item, etc
@@ -25,6 +30,7 @@ it is used to separate each chapter, news item, etc
 	<p>We are a small company...</p>
 </section>
 
+=============================================================================================================
 <aside> is used for secondary, additional or somehow related content.
 
 <aside>
@@ -32,6 +38,7 @@ it is used to separate each chapter, news item, etc
 	<p>Did you know</p>
 </aside>
 
+=============================================================================================================
 <header> BLOG </header>
 <main>
 	<article>
@@ -47,15 +54,18 @@ it is used to separate each chapter, news item, etc
 </main>
 <footer> Blog 2023</footer>
 
+=============================================================================================================
 Blog post content: <article>
 Post auther's biography : <section>
 Related posts: <aside>
 
+=============================================================================================================
 semantic tags give additional information about:
 search readers and search engines
 
+=============================================================================================================
 <article> represents a self-contained ,independent piece of content
 <Section> is used tp divide content into parts
 <aside> is used for secondary, additional or somehow related content
 
-
+=============================================================================================================

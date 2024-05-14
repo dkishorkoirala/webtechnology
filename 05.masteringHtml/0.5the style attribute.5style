@@ -1,3 +1,4 @@
+=============================================================================================================
 With the style attribute, you can fully customize the visual presentation of your websites, from typography and colors to layout and more.
 
  
@@ -7,6 +8,7 @@ In this lesson, you’ll start learning how to make breath-taking web pages and 
 <p style = "color:green">Green paragraph</p>
 <h1 style = "color:blue">Blue heading</h1>
 
+=============================================================================================================
 <h1 style = "color:blue ; text-align:center">Centered Blue heading </h1>
 font size
 <p style="font-size:large"> Large text</p>
@@ -15,6 +17,7 @@ font size
 <button style="background-color:yellow
 ; font-size:large">OK</button>
 
+=============================================================================================================
 <button style="background-color: black; color: white;">
     OK
 </button>
@@ -24,15 +27,16 @@ Some text</p>
 border-style:solid
 border-color:red
 
-<ul 
-style
-="border:solid">
+=============================================================================================================
+<ul style="border:solid">
   
 <li>
 Item A</li>
    <li>Item B
 </li>
 </ul>
+
+=============================================================================================================
 CSS makes your website
 more
 ,
@@ -41,7 +45,7 @@ more consistent, and more in harmony.
 Great work! You learned to use the style attribute to customize your web pages’...
 
  
-
+=============================================================================================================
 ⭐ colors
 
 ⭐ font sizes
@@ -52,4 +56,4 @@ Great work! You learned to use the style attribute to customize your web pages�
 
 ⭐ and more!
 
-
+=============================================================================================================
