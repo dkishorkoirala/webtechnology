@@ -1,0 +1,213 @@
+==================================================================================
+when styling real web pages, our css code can grow in length quickly.
+
+in this lesson, we'll learn to use styke inheritance to create more precise rules
+and write code that is simple, organized, clear, and efficient.
+
+==================================================================================
+
+in HTML, we call it nesting when...
+-> some tags go inside others
+==================================================================================
+
+<body>
+	<p>Barcelona <b>Boasts</b> a captovating blend of history and 
+	modernity.</p>
+</body>
+
+which tag is nested inside<p>
+
+-> <b>
+
+==================================================================================
+
+<p>
+	programming is a blend of <b>logic</b> and creativity.
+</p>
+
+which elements, the outer element is known as the parent, and the inner element
+is child.
+identify the elements.
+
+<p>: parent
+<b>: child
+
+==================================================================================
+
+styling rules for parent elements will also be applied to child elements by default.
+this is known as inheritance. child elements inherit styles fron their parents.
+
+run the code to see how it works
+<head>
+	<style>
+	p{
+	background-color: plum;
+	color: darkblue;
+	}
+	</style>
+</head>
+<body>
+<p> Buy a ticket to <b>portugal</b></p>
+</body>
+==================================================================================
+
+<style>
+  p {
+    color: gray;
+  }
+</style>
+
+<p>Coding turns <em>ideas</em>
+intro reality.</p>
+
+the words ideas will be displayed in...
+-> gray
+==================================================================================
+<style>
+	p{
+	color: gray;
+	}
+</style>
+
+<p>Coding turns <em>ideas</em>
+into reality.</p>
+
+THe words ideas will be displayed in gray because...
+-> rules for parents also apply to child
+
+==================================================================================
+By default, childern inherit their parent's style. if you need a child to have a different
+style, you must write a separate rule for the child.
+
+<head>
+	<style>
+	p{
+	color: lightgray;
+	background-color: darkslategrey;
+	}
+	em{
+	color: plum;
+	background-color: darkslategrey;
+	}
+	</style>
+</head>
+<body>
+<p><em>Programming</em> is a valueable skill in today's digital age. learning to code is a journey that
+can open up many opportunities.</p>
+</body>
+
+
+==================================================================================
+
+Jashmine Design Boutique
+
+code css rule for the heading in the image
+
+h1{
+color: purple;
+text-align: center;
+}
+u{
+color: orange;
+}
+
+
+==================================================================================
+
+<p><b>Namaste</b> Yoga studio</p>
+
+complete the code to override the style inherited from the parent element
+
+p{
+color: purple;
+}
+b{
+color: green;
+}
+
+
+==================================================================================
+You can use a combination of selectors to make more precise rules.
+
+the descendant selector targets childern inside a specific parent. it consists
+of the parent selector, followed by a space, followed by the child selector.
+
+<head>
+	<style>
+	h1 u{
+	color: seagreen;
+	}
+	</style>
+
+</head>
+
+<body>
+	<h1>Back to <u>school!</u></h1>
+	<p>Our back to <u>school</u> sale from July 15th.</p>
+</body>
+
+
+==================================================================================
+
+h1 b {
+	color: red;
+	}
+<h1> Welcome to <b>USA</b></h1>
+<p>Have a nice <b>Vacation</b></p>
+
+select the text that will be displayed in red
+-> USA
+
+
+==================================================================================
+
+Complete the rule with a descendant selector to target the bold text nested inside
+paragraph elements
+
+p b {
+color: purple;
+}
+
+
+==================================================================================
+
+h1 u {
+color: gray;
+}
+
+the descandant selector is targeting....
+-> underlined text nested inside level 1  headings
+
+
+==================================================================================
+
+COmplete to make the paragraphs yellow and bold text inside paragraphs green
+
+p{
+color: yellow;
+}
+
+p b {
+color: green;
+}
+
+==================================================================================
+
+Complete the descendant selector so the italic text nested in level 3 
+headings is always displayed in gray
+
+<style>
+	h3 i {
+	color: gray;
+	}
+</style>
+
+
+==================================================================================
+lesson key points
+
+i. By default, a child element will inherit style from its parent
+ii. we can override style inheritance by creating a different rule for the child element
+iii. the descendant selector targets a child nested inside a specific parent
+
+==================================================================================
