@@ -1,0 +1,265 @@
+for total control over the design of your html elements, we can give them 
+IDs and Classes.
+
+we will learn to use IDs to target specific individual elements, 
+and classes to target groups of elements.
+
+==================================================================================
+
+The id attribute is used to give an unique identifier to a specific element in
+ the page.
+
+GIve the unique intro identifier to the paragraph
+
+<p id = "intro">
+have a great day
+</p>
+
+
+==================================================================================
+
+The id attribute is used to identify unique elements in a HTML document.
+
+True or False? We can give multiple elements the same id.
+
+->False
+
+
+==================================================================================
+
+<h1 id = "intro">
+-------------
+<p id = "content">
+------
+
+
+Use the code to match the HTML elements with their idetifiers
+
+h1: intro
+p: content
+
+
+==================================================================================
+
+html <h1 id ="intro"> css #intro{
+	</h1>			color:green;
+				}
+			#content{
+<p id = "cotent"	color: blue;
+	</p>			}
+we can target specific elements using hastag # followed by the ID name 
+as a selector.
+
+Use the image to identify HTML elements with their colors
+
+h1: green
+p: blue
+
+
+==================================================================================
+
+code a style rule for an element with the ID menu
+
+# menu {
+	color: black;
+	background-color: green;
+	}
+
+
+==================================================================================
+
+Choose the CSS selector for an element with the ID city
+
+-> #city
+
+
+==================================================================================
+
+Code a css rule for an element with the ID item
+
+#item{
+color: white;
+text-align: right;
+}
+
+
+==================================================================================
+
+The code below is from a movie streaming website.
+Can you add a background color to element with the ID movie?
+
+<head>
+	<style>
+	#heading{
+	background-color: DodgerBlue;
+	color: white;
+	text-align: center;
+	}
+	#movie {
+	background-color: red;
+	text-align: center;
+	}
+	</style>
+</head>
+<body> 
+	<h1 id = "heading">Movie stream</h1>
+	<h2 id ="movie>Matrix</h2>
+	<p>Genre: Action, sci-fi</p>
+</body>
+
+
+==================================================================================
+
+Another way to identify elements is the class attribute. use the class attribute to 
+give the same identifier to a group of elements 
+
+<p class ="movie">Avatar</p>
+<button class = "movie">Watch NOw</button>
+
+
+==================================================================================
+
+Select the attribute that you'd use to apply the same style to a group of elements
+-> class
+
+
+==================================================================================
+
+MAtch the attribute with what it identifies
+
+id: unique element
+class: multiple elements
+
+
+==================================================================================
+
+we can create syling rules for a group of elements in the same class( grop)
+
+Use a dot. followed by the class name to target all the elements in the same class
+
+<head>
+	<style>
+	.movie{
+		color: white;
+		background-color: navy;
+		}
+	</style>
+</head>
+
+<body>
+	<p class = "movie">Avatar</p>
+	<button class = "movie">watch now</button>
+</body>
+
+
+==================================================================================
+
+Complete the class selector to target all the elements in the car class
+
+.car{
+	color: black;
+	background-color: green;	
+	}
+
+==================================================================================
+
+we can give the same class name to ...
+->multiple elements
+
+
+==================================================================================
+
+Match the symbol used to construct each type of selector
+id: #
+class: .
+
+
+==================================================================================
+
+A style rule for a class will be applied to all the elements in the class.
+Can we change the text color of all elements in the content class?
+
+<head>
+	<style>
+		.intro{
+		color : darkblue;
+		font-size: 28px;
+		text-align: center;
+		}
+		
+		.content{ 
+   		color: pink;
+		font-size: 18px;
+		}
+	</style>
+</head>
+
+<body>
+
+<h1 class= "intro"> welcome to fitlife blog</h1>
+<p class= "content"> Get inspired to lead a Healthy and active lifestyle.</p>
+<p class="content" > Explore workout routines and nutritious recipes.</p>
+<button class="content">Signup</button>
+</body>
+
+
+==================================================================================
+
+we can also target only those elements of a specific type that hace a certain class.
+This css rule will modify only paragraphs with the content class.
+
+<head>
+	<style>
+	 p.content { 
+		color: seagreen;
+		font-size: 18px;
+	</style>
+
+</head>
+<body>
+	<h1 class ="intro">Welcome to Fitlife blog</h1>
+	<p class= "content" > Get inspired to lead a healthy and active lifestyle.</p>
+	<p class="content" > Explore workout routines and nutritious recipes.</p>
+	<button class="content">Signup</button>
+</body>
+
+
+==================================================================================
+
+<h1 class= "demo">
+-------
+<p class= "demo">
+-------
+<button class= "demo">
+---------
+
+h1.demo{
+	color:-----
+}
+button.demo{
+	color:----
+}
+
+select the element that will be displayed with white text
+
+-> p ,h1
+
+==================================================================================
+
+create a rule for paragraphs with the intro class
+p.intro{
+	color: green;
+	font-size: 18px;
+}
+
+==================================================================================
+
+key points
+
+i. id selector uses the hash # symbol and targets a specific element
+ii. Class give a common identifier to a group of elements
+iii. The class selector uses a dot . and targets a group of elements with the same
+class
+
+==================================================================================
+
