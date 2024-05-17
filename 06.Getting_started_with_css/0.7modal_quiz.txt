@@ -1,0 +1,89 @@
+===============================================================================================================================================
+match each technology with its purpose
+
+structure: HTML
+style: css
+interactivity: JavaScript
+
+
+===============================================================================================================================================
+
+code a green paragraph using inline css
+
+<p style="color: green"> paragraph text </p>
+
+===============================================================================================================================================
+
+wha's wrong with this code?
+<p style "color:gray">asfdjnk</p>
+
+-> missing equal sign
+
+===============================================================================================================================================
+
+style the paragraph in the page using internal css
+
+<style>
+p{
+    color: green;
+}
+</style>
+
+===============================================================================================================================================
+
+<p id="intro"> art Gallery</p>
+<p class="inspiration">Inspiration in every corner.</p>
+ what selector targets the first paragraph only?
+-> #intro
+
+===============================================================================================================================================
+
+code a rule to make the text in buttons green
+buttons{
+    color: green;
+}
+
+===============================================================================================================================================
+the code for a web page above has two separate files for structure and style.
+
+this styling technique is called ....
+
+-> external css
+
+===============================================================================================================================================
+
+Use the descendant selector to create a rule for all the underlined words nested inside a level 3 heading.
+
+h3 u{
+    color: red;
+}
+
+===============================================================================================================================================
+<p class = "content">
+--------------------
+<button class = "content">
+-------------------------
+
+button.content{
+    --------------------
+}
+the styling rule with the class selector will be applied to 
+-> the button only
+
+===============================================================================================================================================
+
+Reorder the selectors based on their specificity (highest to lowest priority)
+
+id selector
+class selector
+element selector
+
+===============================================================================================================================================
+
+code a rule for all the paragraph elements that share the class blog
+
+p.blog{
+    text-align: center;
+}
+
+===============================================================================================================================================

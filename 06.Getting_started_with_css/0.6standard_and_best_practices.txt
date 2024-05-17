@@ -1,0 +1,243 @@
+===============================================================================================================================================
+how web browser decide what rule to prioritize when several rules 
+are targeting the same element at the same time
+
+===============================================================================================================================================
+
+Complete the ID selector to target the element with the unique ID box1
+
+#box1{
+    color: black;
+}
+
+===============================================================================================================================================
+
+Complete the class selector to target every element with the class item
+
+.item{
+    color: black;
+}
+
+===============================================================================================================================================
+select the correct statement
+
+-> the class name can be used by multiple HTML element
+
+===============================================================================================================================================
+
+An HTML element can be targeted for studying in different ways. ex.
+an element may have both a class and an ID
+
+<p id = "text1" class = "info">Text</p>
+
+here are 3 ways to target the same HTML element. find the correct type of
+selector for each method
+
+Element selector: p 
+Id  selector: #text1
+class selector: .info
+
+===============================================================================================================================================
+
+1 inline style 
+2 IDs
+3 classes
+4 element selectors
+
+highest priority to low priority
+
+Each type of css selector has its place in this priority list. when several css
+rules target the same HTML elment, the browser uses this order to decide which
+rule to apply
+
+<head>
+<style>
+    p {
+    color: red;
+    }
+    #p1 {
+        color: blue;
+    }
+</style>
+</head>
+<body>
+    <p id = "p1">text</p>
+</body>
+
+===============================================================================================================================================
+
+<style>
+  p {
+    text-align: left;
+}
+
+</style>
+<p style = "text-align: right">text </p>
+
+inline style has priority over the element rule. the text will be aligned
+to the...
+->right
+
+===============================================================================================================================================
+
+<button id = "b1" class ="btn"Order now</button>
+
+Complete the code so the button is displayed with a green background
+
+.btn{
+    background-color: blue;
+}
+#b1{
+    background-color: green;
+}
+===============================================================================================================================================
+
+1 inline style
+2 IDs
+3 classes
+4 elements
+
+highest to lowest priority
+
+This priority order is known as specificity. specificity is the algorithm 
+used by browser to dertermine the rule to apply to an element.
+
+THis is needed because an HTML element can be targeted
+
+-> in different ways
+
+===============================================================================================================================================
+
+True or false ? several rules can target the same HTML element -> True
+
+===============================================================================================================================================
+
+The algorithm used by browser to dertermine which styling rule to apply is called
+
+-> specificity
+
+===============================================================================================================================================
+
+we can add notes or explainations to our css code. comments help other
+human (and future we) to read our code.
+
+comments in css start with /* and end with */ 
+
+<head>
+    <style>
+        /* style rule for the menu class */
+        .menu{
+            background-color: blue;
+            font-size: medium;
+            }
+    </style>
+</head>
+
+<body>
+    <button class = "menu"> save for later</button>
+    <button class = "menu"> Add to cart</button>
+</body>
+
+===============================================================================================================================================
+
+Complete to comment the css code
+
+/* rule for box1 id */
+
+#box1{
+    background-color: red;
+}
+===============================================================================================================================================
+
+css comments need  to be contained in <styke> tags when using internal css
+
+complete the code
+
+<style>
+/* rule for box1 id */
+#box1{
+    background-color: red;
+    }
+</style>
+
+===============================================================================================================================================
+
+when using the internal style technique...
+-> all css code is grouped together in the html document in one set of 
+<style> tags
+
+===============================================================================================================================================
+
+an alternative to inline and internal css is external css. external css 
+code is written outside the HTML document, in a separate file.
+
+<body>
+    <h1>A web developer</h1>
+    <p> I am a web developer and i love to create websites.</p>
+    <button> learn more</button>
+
+    <p class= "heading">Network</p>
+    <p class= "description">i have aefjankdjfnafjadbskgjadsngakjngdska
+    dasgasgadsgasdgadsgsdgsdgadsgasf fdsafdasfasdf dfadfs sfdasf dasgasgadsgasdgadsgsdgsdgadsgasf
+    </p>
+</body>
+
+.heading{
+    font-size: large;
+    color: bluevoilet;
+}
+.description{
+    font-size: medium;
+    color: firebrick;
+}
+
+button{
+    background-color: burlywood;
+}
+
+===============================================================================================================================================
+
+One of the advantages of external css is that the same css style file can 
+be used by multiple HTML document(or web pages).
+
+a: internalcss
+b: external css
+
+===============================================================================================================================================
+
+some developers prefer external css because it separates structure and style
+into different files. this means our web page project will consist of 
+several files with different file extensions.
+
+Match the file extensions
+1. .html :structure
+2. .css :style
+
+===============================================================================================================================================
+
+Externam css is very useful for multi-page website, as we can style the entire 
+site in one place
+
+match the styling technique with the files it requires
+
+html file with css code inside: internal css
+HTML file + css file : external css
+
+===============================================================================================================================================
+
+we don't need <style> tag in an external css file. we can add the styling rules
+directly.
+
+complete the external css code
+h3{
+    color: red;
+}
+
+===============================================================================================================================================
+
+key points
+
+i. specificity tells the browser with rule to apply
+ii. comments in css starts with /* and ends with */
+iii. external css means a separate file for the styling rules.
+=======================================================================
