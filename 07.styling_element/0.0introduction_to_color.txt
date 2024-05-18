@@ -1,0 +1,150 @@
+color is one of the most important ingredients in design.
+
+=============================================================================================================================================
+
+THe css property used to apply a color to text is : color
+
+=============================================================================================================================================
+
+The most common colors have names. we'll learn to use colors with names,
+and even without names, using color models.
+
+code a css rule to make level 1 headings blue
+
+h1{
+    color: blue;
+}
+
+=============================================================================================================================================
+Level completed!
+
+use the image to match property : value paris
+
+color: green;
+background-color: black;
+
+=============================================================================================================================================
+
+A color model is a way of representing and recreating real colors using
+codes. RGB is one of the most used color models.
+
+what do you think RGB stands for?
+-> REd Green blue
+
+=============================================================================================================================================
+
+The RGB model creates colors by combining different amounts (intensities)
+of red green blue; each ranging from 0 to 255.
+
+rgb(255,255,255) represents color:
+-> white
+and rgb(0,0,0) represents
+->black
+
+=============================================================================================================================================
+
+Match the RGB representation to the color names
+rgb(255,0,0):-> REd
+rgb(0,255,0):->Green
+rgb(0,0,255):->blue
+=============================================================================================================================================
+
+match the rgb representation to the color names
+rgb(255,255,255):-> white
+rgb(0,0,0):->black
+rgb(255,255,0):->yellow
+
+=============================================================================================================================================
+By adjusting the levels of red, green, and blue, almost any color can be produced.
+
+RGB values are enclosed in parentheses and separated by commas. 
+
+Complete the CSS rule
+p{
+    color: rgb(127,255,212)
+}
+
+=============================================================================================================================================
+
+Each amount (or intensity) of red, green and blue ranges from…
+
+min : 0
+max: 255
+
+=============================================================================================================================================
+
+Colors in the RGB model can also be represented as HEX codes.
+
+ 
+
+HEX codes are shorter. Run the code to see how HEX codes are used in CSS
+
+<body>
+    <button>Next page</button>
+</body>
+
+css
+button{
+    font-size: large;
+    color: #FFFFFF;/*rgb(255,255,255)*/
+    background-color: #ff9595;/*rgb(255,149,149)*/
+}
+
+=============================================================================================================================================
+
+#BBEFD7 = rgb(187, 239, 215)
+
+HEX codes start with a hash symbol #, followed by 3 pairs of characters, each representing the intensity of red, green, and blue accordingly.
+select the correct hex code
+-> #11DC13
+
+
+=============================================================================================================================================
+
+Each character in a HEX code can have one of 16 possible values, spanning from 0 to 9 and extending to the letters A to F. 
+
+Each pair ranges from 00 (least intense) to FF (most intense).
+
+FF is equivalent to 255
+
+=============================================================================================================================================
+Representing numbers in the HEX system is more efficient. Only 2 digits per color are needed.
+
+Match the different representation of the same color
+rgb(255,0,0)-> #FF0000
+rgb(0,255,0)-> #00FF00
+rgb(0,0,255)-> #0000FF
+
+=============================================================================================================================================
+make the text in blue button
+
+button{
+    color: #0000FF;
+}
+=============================================================================================================================================
+Match the hex code with the color
+
+#000000: black
+#FFFFFF: white
+#FF0000: red
+
+=============================================================================================================================================
+
+COlor models and codes are needed because:
+
+-> there are too many colos to have different names
+=============================================================================================================================================
+
+Display devices like your phone screen are made of tiny picture elements known as pixels.
+
+ 
+
+Each pixel can emit a combination of red, green and blue light to produce any color in the RGB model.
+
+=============================================================================================================================================
+
+key points:
+i. RGB is a color model for accessing a wide spectrum of colors
+ii. RGB uses 3 values representing the intensity of red, green , and blue
+iii. HEX codes make the representation of colors shorter
+=============================================================================================================================================
