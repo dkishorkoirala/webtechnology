@@ -1,0 +1,222 @@
+to make pages that look nice and balanced, in this lesson we' ll learn to fully control the sizes of elements
+=============================================================================================================================================
+
+A display like the screen of a phone is made of ...
+-> picture element or pixels
+
+=============================================================================================================================================
+
+pixels are used as a measuring unit to control the dimensions of elements.
+
+<html>
+    <head>
+    <title>Page title</title>
+
+</head>
+<body>
+    <img id = "img1"
+    src = "https://blob.sololearn.com/courses/shore.jpg">
+    <br> <br>
+    <img id = "img2"
+    src = "https://blob.sololearn.com/courses/shore.jpg">
+</body>
+</html>
+
+css
+#img1 {
+    width: 150px;
+}
+#img2 {
+    width: 250px;
+}
+
+4k means 4,000pixels.
+
+=============================================================================================================================================
+
+we can use pixels to control the size of elements. the font-size property controls
+text size
+
+complete the styling rule to make the font 32 pixels in size
+#p1{
+    font-size: 32px;
+}
+
+
+=============================================================================================================================================
+
+set the buttons' text size to 15pixels
+
+button{
+    font-size: 15px;
+}
+
+
+=============================================================================================================================================
+<p id = "intro">-------------------------</p>
+<p id = "content">------------------------</p>
+
+css 
+#intro{
+    color: white
+    text-align: center
+}
+
+#content{
+    color: red
+    font-size :28px
+}
+in most web browsers, the default size for text in paragraphs , buttons, lists, and tables is 16 px.
+
+identify the class with the  text sizes
+#intro: 16px
+#content: 28px 
+
+
+=============================================================================================================================================
+
+we can use values like small, medium, and large for text size. they already have set pixel units.
+
+small: 13px
+medium: 16px
+large:18px
+
+
+=============================================================================================================================================
+
+set the font size to large
+.movies{
+    font-size: large;
+}
+
+
+=============================================================================================================================================
+modern websites are built to look great on secreens of different sizes and resolutions.
+
+this approach is know as
+-> responsive web design
+
+
+=============================================================================================================================================
+
+using pixels as a measurement unit is not a best practice when it comes to 
+resoinsiove web design.
+
+screens of different size and resolution have different numbers of pixels
+and ...
+
+-> pixels are fixed-sized units
+
+
+=============================================================================================================================================
+
+when styking an element using percentages (%), 100% would be the full sizeof its parent 
+element.
+
+all the elements of a web page that are seen is the browser are nested inside the ->
+-><body>
+
+
+=============================================================================================================================================
+
+By default, the width of the body of a page matches the width of the device screem
+this is very helpful to design responsive sites,
+
+make the image take 20% of the width of its parent element
+
+->
+
+img{
+    width: 20%;
+}
+
+=============================================================================================================================================
+
+if the width of an HTML element is set to 50%
+
+-> it'll take half of the parent's width
+
+=============================================================================================================================================
+
+an image with the id of logo is directly nested inside <body>
+
+create a rule so the image takes 30% of the display width regardless of the 
+device dimentions
+->
+#logo{
+    width: 30%;
+}
+
+
+=============================================================================================================================================
+
+img {
+    width: 50%;
+}
+
+a page has an image nested directly in its <body>
+on a screen 300px wide the width of the image will be...
+-> 150px
+
+=============================================================================================================================================
+we can also use percentages to set the font size. font sizes will be
+calculated using the parent's font size as reference.
+
+if the parent's size is set to 20px, a child with font-size of 50% will 
+display text to 10px 
+
+<body>
+    <div class= "parent">
+    parent text(20px)
+    <div class= "child">
+    child text(50% of parent =10px)</div>
+    </div>
+</body>
+
+css
+.parent{
+    font-size: 20px;
+    background-color: #98fb98
+}
+
+.child{
+    font-size: 50%;
+    background-color: #ffd700;
+}
+
+=============================================================================================================================================
+The default fontsize for the body of a page in most browsers is 16px.
+<body>
+    <p>-----------------</p>
+</body>
+
+css
+p{
+    font-size:200%
+}
+
+if different values have not been set, the text size of a paragraph with the 
+above style would be...
+->32px
+
+
+=============================================================================================================================================
+
+set the font-size of the button, which is nested inside the main element, to 
+20px
+
+main{
+    font-size: 40px;
+}
+
+button{
+    font-size: 50%;
+}
+
+=============================================================================================================================================
+
+key points
+i. size in css can be measured and set in pixels(px) and percentages(%)
+ii. percentages % allows for more responsive designs, adjustiong based on the dimentions of parent elements.
+
+=============================================================================================================================================
