@@ -1,0 +1,298 @@
+Another really important element of the web design is text styling
+
+=============================================================================================================================================
+text alignment
+
+code a css declaration for center-aligned text
+
+
+text-align:center;
+
+=============================================================================================================================================
+            Quote of the day
+"learning is a lifelong process."
+            -peter Drucker
+
+
+match the text in the image with the alignment declaration
+the heading: text-align:center;
+the quote : text-align: left;
+the author: text-align: right;
+
+=============================================================================================================================================
+default: is quite well but 
+text-align:justify;//justifies the content
+
+use text-align: justify to align text to both the left and right edges by 
+adjusting the spacing between words, ensuring that each line has equal width
+
+p{
+    text-align: justify;
+}
+
+=============================================================================================================================================
+
+Text justification is often seen in books, magazines and newspapersm as it 
+gives neat edges to the column of the text.
+
+code a css rule to justify the text in the class content
+
+.content{
+    text-align: justify;
+}
+
+
+=============================================================================================================================================
+
+we can add text-decoration to convey meaning or draw attention to specific
+piece of text, like links.
+
+<html>
+<body>
+    <h1>Underlined text</h1>
+    <h2>Overlined text</h2>
+    <h3>line-through text</h3>
+    <h4>Underlined and overlined text</h4>
+</body>
+</html>
+
+css
+body{
+    background-color:#333333;
+}
+
+h1{
+    color: #F28D35;
+    text-decoration:underlined;
+}
+
+h2{
+    text-declaration:overlined;
+    color: #6BBE92;
+}
+
+h3{
+    text-decoration: line-through;
+    color: #D83367;
+}
+
+h4{
+    text-decoration:underline overline;
+    color: #149EF2;
+}
+
+=============================================================================================================================================
+<p id ="offer">Limited Time offer:<b>Get one 50% off!</b>
+</p>
+
+overline the bold text that is child of an element with id offer
+
+#offer b{
+    text-decoration:overline;
+}
+
+=============================================================================================================================================
+some css properties can take multiple values. we can control the color for the decoration by adding a color name , rgb, or hex code after the 
+decoration type.
+<html>
+<body>
+    <h1>My personal blog</h1>
+    <h2 class="article-title">Advantures in New Zealand</h2>
+    <p>During my trip to new zealand, i had the chacde..........</p>
+    <h2 class="article-title">Gorunent cooking on a budget</h2>
+    <p>you must fasfbewaoihfhkwjs different..........</p>
+</body>
+</html>
+
+body{
+    background-color:#333333;
+    color: #ffffff;
+}
+
+h1{
+    text-align:center;
+    color: #555555;
+}
+
+.article-title{
+    text-decoration:underline #FF4500;
+    font-size: 24px;
+}
+
+=============================================================================================================================================
+code a css rule to put a red line above paragraph text and align to it the 
+right
+
+p{
+    text-decoration:overline red;
+    text-align:right;
+}
+
+=============================================================================================================================================
+Text decoration can take on various styles, such as dotted, double, dashed, and wavy.
+
+<body>
+    <div class="container">
+        <p class = "double>
+            this is a double underline.</p>
+        <p class="dotted">
+            this is a dotted underline.</p>
+        <p class="dashed">
+            this is dashed underline.</p>
+        <p class ="wavy">
+            this is a wavy underline.</p>
+    </div>
+</body>
+
+css
+p{
+    font-size:18px;
+}
+
+.double{
+    text-decoration:double underline #E67112;
+}
+
+.dotted{
+    text-decoration:underline dotted #2A9D8F;
+}
+
+.dashed{
+    text-decoration:underline dashed #FF4500;
+}
+.wavy{
+    text-decoration: wavy underline #62767E;
+}
+=============================================================================================================================================
+online book club
+
+select the values for the text-decoration property displayed in the image
+
+-> red overline dashed
+=============================================================================================================================================
+the text-decoration property is a short and simple way to refer to different sub-properties,
+ such as text-decoration-line, text-decoration-color, and text-decoration-style
+
+text-decoration: wavy overline #2a9d8f;
+
+match the sub properties
+text-decoration-line: overline
+text-decoration-color: #2a9d8f;
+text-decoration-style: Wavy;
+
+=============================================================================================================================================
+
+the text-transform property allows us to control the capitalization of text
+content
+it can take 3 values : capitalize, uppercase and lowercase.
+
+<html>
+<body>
+    <p class="capitalize">
+        this sentence is capitalize transformation</p>
+    <p class="uppercase">
+        this is a sentence with uppercase transform</p>
+    <p class="lowercase">
+    this is a sentence with lowercase transform</p>
+</body>
+</html>
+
+css
+.capitalize{
+    text-transform: capitalize;
+}
+.uppercase{
+    text-transform: uppercase;
+    }
+.lowercase{
+    text-transform: lowercase;
+}
+
+body{
+    background-Color :#000A23;
+    color: white;
+}
+=============================================================================================================================================
+code a css rule for a button with capitalized text, a font size of 18px, and a green background
+
+button{
+    text-transform:capitalize;
+    background-color: green;
+    font-size: 18px;
+}
+=============================================================================================================================================
+p{
+    text-shadow: 6px 4px ; 
+}
+the text-shadow creates a depth effect, gives emphasis, or just adds a stylish 
+touch to our typography.
+
+it takes two required values, in the given order: horizontal offset first , 
+vertical offset second.
+
+=============================================================================================================================================
+h1{
+    text-shadow: 8px 6px;
+}
+match the text-shadow values to its position
+horizontal offset: 8px
+vertical offset: 6px
+=============================================================================================================================================
+The horizontal offset is how far to the right (positive value) or 
+left (negative values) the shadow will be.
+
+the vertical offset is how far down (positive value) or up(negative values)
+the shadow will be
+
+complete the code to apply a text shadow tht is offset 5px to the right and 6px upward
+
+h1{
+    text-shadow: 5px -6px;
+}
+=============================================================================================================================================
+the text-shadow can accept two additional, optional values.
+
+-blur radius: the amount of blur applied to the shadow
+-color: the color of the shadow
+
+<html>
+    <body>
+    <h1>Harry porter</h1>
+    </body>
+</html>
+
+css
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-shadow: 4px 4px 4px red;
+    font-size:4rem;
+}
+=============================================================================================================================================
+text-shadow: 8px 4px #4296ce;
+the blur radius and color values are optional and can be omitted.
+
+which value is omitted in the declaraion above
+->blur radius
+=============================================================================================================================================
+text-shadow: 15px 12px 5px #149EF2;
+identify the text-shadow properties with their values
+
+horizontal offset: 15px
+vertical offset: 12px
+color: #149EF2;
+blur radius: 5px;
+=============================================================================================================================================
+apply a 5px horizontal offset and a 4px vertical offset for the shadow
+
+text-shadow: 5px 4px green;
+=============================================================================================================================================
+key points
+i. text-align controls the horizontal alignment of text
+ii. text-decoration adds decorative effects to text
+iii. text-transform alters the capitalization of text
+iv. text-shadow applies shadow effects behind the text
+=============================================================================================================================================
