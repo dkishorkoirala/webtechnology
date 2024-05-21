@@ -1,0 +1,47 @@
+the rule to style the element with id game
+
+#game{
+    text-align:center;
+    color: green;
+}
+=============================================================================================================================================
+<p class ="content">------------</p>
+
+#content{
+    text-align:justify;
+}
+
+what's wrong in the css code  above?
+->incorrect selector
+=============================================================================================================================================
+Complete to add a comment to the code
+/*style  for element with id intro*/
+
+#intro{
+    color: red;
+}
+=============================================================================================================================================
+specificity is ....
+-> the algorithm that determines which styling rule to apply
+=============================================================================================================================================
+
+identify colors
+
+#00ff00: green;
+rgb(0,0,255): blue;
+#ff0000:red;
+
+=============================================================================================================================================
+
+whats true about pixels
+-> each pixel emits rgb light to produce colors
+->Picel is a measuring unit for size
+=============================================================================================================================================
+                level completed
+code to produce the result shown in the image
+h3{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: red;
+}
+=============================================================================================================================================
