@@ -1,0 +1,249 @@
+Fonts play a crucial role in web design, influencing readiability, aesthetics, and user experience.
+They breathe life into the words on a page and set the tone of the content.
+=============================================================================================================================================
+
+The font-family property in css let us specify the typeface for our text.
+THIS determines how text looks on a webpage.
+
+css
+
+body{
+    background-color: #000A23;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#font-areal{
+    font-family: arial;
+}
+
+#font-courier{
+    font-family: "courier New";
+}
+
+#font-comic{
+    font-family: "comic sans ms";
+}
+
+html
+<body>
+    <p id="font-georgia">Georgia</p>
+    <p id="font-arial">Arial</p>
+    <p id="font-courier">Courier New</p>
+    <p id="font-comic">Comic Sans MS</p>
+</body>
+=============================================================================================================================================
+code a css rule for the paragraphs to use the arial font family
+
+p"{
+    font-family: arial;
+}
+=============================================================================================================================================
+Many fonts are installed by default in all devices. These are known as web safe fonts.
+
+other fonts might need to be installed on the user's devcie, se you'll need 
+to specify a web safe font as a back-up, in case the user doesn't have them.
+
+try running this code with the different fonts to see the outputs
+
+css
+/*some of web safe fonts:
+Arial, courier new, times new roman,
+Trebuchet ms, verdana
+*/
+
+#font1{
+    font-family: georgia;
+}
+
+#font2{
+    font-family: tahoma;
+}
+
+#font3{
+    font-familt: Lucida Console;
+}
+
+#font4{
+    font-family: Comic Sans MS;
+}
+/*HEre are more web safe fonts you can try: areal, courier New, times new roman, trebuchet ms , verdana*/
+
+html
+<body>
+    <h2 id ="font1"> Daily Brews</h2>
+    <h2 id = "font2">Daily Brews</h2>
+    <h2 id = "font3"> Daily Brews</h3>
+    <h2 id ="font4">Daily Brews</h2>
+</body>
+=============================================================================================================================================
+The font-family property specifies a list of fonts, from highest priority to 
+lowest. font selection stops at the first font in the list that is on the user's
+system.
+
+complete to make the browser try first georgia , then arial font families if Helvetica is not available
+
+p{
+    font-family: Helvetica, Georgia, Arial;
+}
+=============================================================================================================================================
+The list of fonts in the font-family property are 
+-> backvalues if the font you want is not working
+=============================================================================================================================================
+
+Font-family values should be separated by...
+->commas
+=============================================================================================================================================
+
+Generic font families
+Generic font families are group of fonts with similar typefaces, and they are used as universal fallbacks. it's a best practice to place them as the last
+option in a font-family property. if the preferred fonts are unavailable,
+the browser will use the generic font family instead.
+
+run the code to see 5 common generic font families
+
+.sanif-font{
+    /*fonts have decorative 
+    strokes or serifs.*/
+    font-family: serif;
+}
+.sans-sansif-font{
+    /*Fonts lack decorative strokes*/
+    font-family: sans-serif;
+}
+
+.monospace-font{
+    /*Fonts have a fixed width for each character and character spacing.*/
+    font-family: monospace;
+}
+
+.cursive-font{
+    /*Fonts are handwritten or cursive.*/
+    font-family: cursive;
+}
+.fantasy-font{
+    /*Fonts are decorative and often fantasy or cartoonish.*/
+    font-family: fantasy;
+}
+
+body{
+    background-color:#0c1527;
+    color:#FFFFFF
+}
+
+html
+<body>
+    <h2 class="serif-font">THis is a serif font.</h2>
+    <h2 class ="sans-serif-font">THis is a sans-serif font.</h2>
+    <h2 class="monospace-font">This is a monospace font.</h2>
+    <h2 class="cursive-font" >This is a coursive font.</h2>
+    <h2 class="fanstasy-font">this is a fantasy font.</h2> 
+</body>
+=============================================================================================================================================
+
+use quotes to warp font names with multiple words 
+p{
+    font-family: "Courier New", Monaco, monospace;
+}
+
+=============================================================================================================================================
+
+#content{
+    text-align: justify;
+    font-family: Georgia, Arial, "Courier New";
+}
+which of the fonts will be applied if Georgia isn't available but both arial 
+and courier new are installed on the user's device?
+
+->Arial
+=============================================================================================================================================
+The font-weight property controls the thickness (or boldness) of the text.
+
+COmplete the code to give a font thickness of 500
+.botton{
+    font-weight: 500;
+}
+=============================================================================================================================================
+
+WE can use numerical values from 100 (thinnest) to 900(thickest) to specify font weight, increasing in increment of 100.
+
+css
+
+p{
+    font-family: Arial , sans-serif;
+    font-size: 1.5em;
+}
+
+#light{
+    font-weight: 100;
+}
+
+#normal{
+    font-weight: 400;
+}
+#bold{
+    font-weight: 700;
+}
+#bolder{
+    font-weight: 900;
+}
+
+html
+<body>
+    <p id ="light"> This is a light text.</p>
+    <p id ="normal"> This is a normal text.</p>
+    <p id ="bold"> This is a bold text.</p>
+    <p id ="bolder"> This is a bolder text.</p>
+</body>
+=============================================================================================================================================
+Set text alignment to left, font-size to 22px and weight to 300
+
+p{
+    text-align: left;
+    font-size:22px;
+    font-weight: 300;
+}
+=============================================================================================================================================
+
+certain weight values, such as 400 and 700 have named equivalents that can be used directly as values
+:normal and bold.
+
+opent the code and experiment with the font-weight values
+
+body{
+    background-color: #f4e1d2;
+    text-align: cecnter;
+}
+h1{
+    font-weight: bold;
+    color: #D83367;
+}
+button{
+    font-weight: 400;
+    color:white;
+    background-color: #D83367;
+}
+
+html
+<body>
+    <h1>Baking 101</h1>
+    <p> join our <strong> exclusive</strong> online course and learn from the best chefs in town.</p>
+    <button>Enroll</button>
+</body>
+=============================================================================================================================================
+
+IDentify the values of font-weight property with their numerical representations
+normal: 400
+bold: 700
+=============================================================================================================================================
+
+set the paragraph's text to bold using a numeric font-weignt values
+
+p{
+    font-weight: 700;
+}
+=============================================================================================================================================
+give away:
+i.font-family allows us to specify the typeface
+ii.We can use font-weight to control the thickness of the text
+=============================================================================================================================================
